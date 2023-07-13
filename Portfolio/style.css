@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-contents {
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#nav-contents a {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#nav-contents a:hover {
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+a {
+    margin-top: 15px;
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#my {
+    margin-left: 50px;
+}
+
+.Aboutme {
+    height: 95vh;
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    background-color: #84735A;
+}
+
+.Aboutme #intro {
+    margin-left: 50px;
+    margin-top: 140px;
+    font-size: 30px;
+}
+
+.Aboutme #photo {
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+#ed {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#btech {
+    display: flex;
+    margin-left: 70px;
+    width: 90%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#btech img {
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+#btech #btechdetails {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+#sk {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#skill {
+    margin-left: 500px;
+}
+
+#s {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#pr {
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#projects {
+    margin-left: 100px;
+}
+
+#projects #projectdetails {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#projects #projectdetails:hover {
+    background-color: white;
+}
+
+#projects #projectdetails a {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+#cer {
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#certificatedetails {
+    margin-left: 140px;
+}
+
+#certificatedetails img {
+    margin-right: 150px;
+}
+
+#contact {
+    background-color: #84735A;
+    width: 80%;
+    margin-left: 150px;
+    height: 250px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+#con {
+    color: white;
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+#contact #ad {
+    color: white;
+    font-size: 30px;
+    margin-left: 400px;
+}
+
+#contact #icons {
+    margin-left: 500px;
+}
+
+#contact #icons i {
+    color: white;
+    font-size: 50px;
+    margin-right: 50px;
+}
